@@ -1,0 +1,42 @@
+# Project information
+site_name: 'Portfolio'
+site_description: 'サイトの紹介'
+site_author: 'yourName'
+site_url: 'http://yourSite'
+
+
+# Copyright
+copyright: 'Copyright (c) 2016'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme:
+  name: material
+  language: ja
+  palette:
+    scheme: preference
+    primary: indigo
+    accent: amber
+  font:
+    text: Noto Sans
+    code: Inconsolata
+
+# Options
+extra:
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'yourName'
+    twitter: 'yourName'
+
+# Extensions
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - admonition
+  - toc:
+      permalink: '#'
+
+nav:
+  - ホーム: index.md
