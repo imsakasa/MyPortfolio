@@ -1,12 +1,9 @@
 # Project information
 site_name: 'Portfolio'
-site_description: 'サイトの紹介'
-site_author: 'yourName'
-site_url: 'http://yourSite'
-
-
-# Copyright
-copyright: 'Copyright (c) 2016'
+site_description: 'Portfolio'
+site_author: 'kazusa7'
+site_url: 'https://kazusa7.github.io/MyPortfolio/'
+copyright: 'Copyright (c) 2020 kazusa7'
 
 # Documentation and theme
 docs_dir: 'docs'
